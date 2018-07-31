@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+  <Element name="StudySearch">
+    <param type="StudyID" value="mbtest"/>
+    <param type="StudyTitle" value="A study to evaluate the safety of sugarcubes retreatment in subjects with systemic lupus erythematosus"/>
+  </Element>
+</Elements>

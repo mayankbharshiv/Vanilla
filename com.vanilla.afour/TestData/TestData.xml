@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Elements>
+    <Element name="envSelection">
+        <param type="envValue" value="Salesforce - SFDEV"/> <!-- Salesforce - SFDEV ,Salesforce - SFUAT-->
+    </Element>
+    <Element name="TC01">
+        <param type="url" value="https://intusurg.okta.com/app/UserHome"/>
+        <param type="contactName" value="Danilovic, Alexandre"/>  <!-- Danilovic, Alexandre,Paulo Kassab -->
+        <param type="endDate" value="03/31/2017"/>
+        <param type="sysType" value="Si"/>  <!-- Si ,Xi -->
+        <param type="billAddress" value="ROAD"/>
+        <param type="billCity" value="NEW YORK"/>
+        <param type="billingCountry" value="United States"/>
+        <param type="billingPhone" value="12345678"/>
+        <param type="billingEmail" value="test@test.com"/>
+    </Element>
+    <Element name="TC02">
+        <param type="eventCancelID" value="RN-92005"/>
+    </Element>
+    <Element name="TC03">
+        <param type="url" value="https://intusurg-stage.plateau.com/learning/admin/nativelogin.jsp"/>
+        <!--https://intusurg-sandbox.plateau.com/learning/admin/nativelogin.jsp  -->
+        <param type="userName" value="sarang"/>
+        <param type="passWord" value="Welcome1"/>
+        <param type="profileID" value="Testing_01_10_2017_018"/>
+        <param type="Email-id" value="prathamesh.sarang@intusurg.com"/>
+        <param type="setText" value="Information Technology"/>
+        <param type="status" value="Succeeded"/>
+        <param type="searchUserid" value="maggiez"/>
+    </Element>
+    <Element name="verification">
+        <param type="loginPageTitle" value="Intuitive Surgical - Sign In"/>
+        <param type="saleForcePageTitle" value="Intuitive Surgical - My Applications"/>
+        <param type="homePageTitle" value="Salesforce - Unlimited Edition"/>
+        <param type="successFactorHomePageTitle" value="Home - ISU Administration"/>
+        <param type="alertMessage"
+               value=" PRE-REQUISITE APPROVAL REQUIRED: The surgeon does not meet all the prerequisites for the training for {Trainee} at {TrainingSite}. An approval is required."/>
+    </Element>
+    <Element name="SAP">
+        <param type="SalesOrder" value="Passed"/>
+        <param type="DeliveryNumber" value=""/>
+        <param type="BillNumber" value=""/>
+        <param type="AccountingDocumentNumber" value=""/>
+    </Element>
+</Elements>

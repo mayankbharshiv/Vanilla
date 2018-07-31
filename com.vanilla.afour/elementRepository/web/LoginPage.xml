@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+  <Element name="UserName">
+    <param type="XPATH" value="//input[@id='userName-inputEl']"/>
+    <param type="ID" value="userName-inputEl"/>
+  </Element> 
+   
+  <Element name="PassWord">
+    <param type="XPATH" value="//input[@id='textfield-1011-inputEl']"/>
+    <param type="ID" value="textfield-1011-inputEl"/>
+  </Element>
+  
+  <Element name="LoginButton">
+    <param type="XPATH" value="//em[@id='button-1013-btnWrap']"/>
+    <param type="ID" value="button-1013-btnEl"/>
+  </Element>
+  
+  <Element name="LogoffButton">
+    <param type="XPATH" value="//em[@id='btnLogOff-btnWrap']"/>
+    <param type="ID" value="btnLogOff-btnEl"/>
+  </Element>
+</Elements>

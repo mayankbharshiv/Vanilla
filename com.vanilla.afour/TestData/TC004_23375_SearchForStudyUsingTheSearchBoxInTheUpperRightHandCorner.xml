@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+  <Element name="StudySearch">
+    <param type="StudyID" value="mbtest0116"/>
+  </Element>
+</Elements>

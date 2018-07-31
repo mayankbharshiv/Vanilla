@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+	<Element name="SearchBox">
+		<param type="XPATH" value="//*[@id='globalSearchBox-inputEl']" />
+		<param type="ID" value="globalSearchBox-inputEl" />
+	</Element>
+
+	<Element name="StudySearchButton">
+		<param type="XPATH" value="//div[@id='ext-gen1162']" />
+		<param type="ID" value="ext-gen1162" />
+	</Element>
+	
+	<Element name="CancelStudySearchButton">
+		<param type="XPATH" value="//span[contains(text(),'Cancel')]" />
+	</Element>
+	
+	<Element name="StudySearchResultsByID">
+		<param type="XPATH" value="//div[@class='comments-link']" />
+		<param type="CLASSNAME" value="comments-link" />
+	</Element>
+	
+	<Element name="StudySearchResultsByTitle">
+		<param type="XPATH" value="//div[@class='x-grid-cell-inner ']" />
+		<param type="CLASSNAME" value="x-grid-cell-inner " />
+	</Element>
+	
+	
+</Elements>
